@@ -65,10 +65,7 @@ public class Connector implements ServletContextListener {
 						  							throws IOException {
 				      
 					    String message = new String(body, "UTF-8");
-					    System.out.println(" [x] Mensaje recibido. Enviando a C1..");
-					  					    
-					    sendMessageToC1(message);
-					    
+					    sendMessageToC1(message);					    
 				  }
 				};
 				
